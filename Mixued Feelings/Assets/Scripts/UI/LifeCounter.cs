@@ -49,17 +49,22 @@ public class LifeCounter : MonoBehaviour
             gameOverGroup.SetActive(true);
             TMP_Text gameOverText = gameOverGroup.GetComponentInChildren<TMP_Text>();
             int score = GameObject.Find("ScoreText").GetComponent<ScoreText>().Score;
-
-            int highscore = PlayerPrefs.GetInt("highscore", 0);
-            if (score > highscore) {
-                PlayerPrefs.SetInt("highscore", score);
-            }
-            // int score = PlayerPrefs.GetInt("score");
             gameOverText.text = string.Format(gameOverText.text, score);
 
-            highScoreGroup.SetActive(true);
+            int highscore = PlayerPrefs.GetInt("highscore", 0);
+
+            if (score > highscore) {
+                PlayerPrefs.SetInt("highscore", score);
+                highscore = score;
+            }
+            // int score = PlayerPrefs.GetInt("score");
+            
+            Debug.Log(score);
+            Debug.Log(highscore);
+
             TMP_Text highScoreText = highScoreGroup.GetComponentInChildren<TMP_Text>();
             highScoreText.text = string.Format(highScoreText.text, highscore);
+            highScoreGroup.SetActive(true);
 
             scoreText.SetActive(false);
 
