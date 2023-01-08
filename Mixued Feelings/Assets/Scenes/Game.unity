@@ -884,15 +884,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7450e0ecce61f042a3dad4cb532f36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 2309322103976397161, guid: 942bc14ce0fd8054294edfc4c1319e8e, type: 3}
+  prefabs:
+  - {fileID: 2309322103976397161, guid: 942bc14ce0fd8054294edfc4c1319e8e, type: 3}
+  - {fileID: 2309322103976397161, guid: 0e6e89e0199227046b69a3802432cd8a, type: 3}
+  - {fileID: 2309322103976397161, guid: 3b24251d64a3fb642a23827725406bac, type: 3}
+  - {fileID: 2309322103976397161, guid: 76b6aa7f7c7b65846826a53ddb3a30f0, type: 3}
+  - {fileID: 2309322103976397161, guid: b3fab8ba95347d54396363d80cc12cce, type: 3}
   interval: 1
   minX: -2.5
   maxX: 2.5
   y: -5.5
-  sprites:
-  - {fileID: 2063984481, guid: 8a3996a03b7da1a4ca703b5aadef4c2b, type: 3}
-  - {fileID: -1690700735, guid: 8a3996a03b7da1a4ca703b5aadef4c2b, type: 3}
-  - {fileID: 2010310404, guid: 8a3996a03b7da1a4ca703b5aadef4c2b, type: 3}
 --- !u!4 &1049503993
 Transform:
   m_ObjectHideFlags: 0
@@ -937,13 +938,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7450e0ecce61f042a3dad4cb532f36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 2309322103976397161, guid: dbcaada5c69323449a80ba43f270d52c, type: 3}
+  prefabs:
+  - {fileID: 2309322103976397161, guid: dbcaada5c69323449a80ba43f270d52c, type: 3}
   interval: 3
   minX: -2.5
   maxX: 2.5
   y: -5.5
-  sprites:
-  - {fileID: 21300000, guid: 785620bce4e81b749bd1ba95af5d71d0, type: 3}
 --- !u!4 &1650250637
 Transform:
   m_ObjectHideFlags: 0
