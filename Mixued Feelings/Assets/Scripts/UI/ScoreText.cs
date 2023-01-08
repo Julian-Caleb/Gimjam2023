@@ -8,6 +8,7 @@ public class ScoreText : MonoBehaviour
 {
     
     private int score = 0;
+    
     public int Score {
         get { return score; }
         set {
