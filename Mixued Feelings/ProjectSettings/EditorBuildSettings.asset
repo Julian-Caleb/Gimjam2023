@@ -11,4 +11,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game.unity
     guid: 48c2367c436a62b45be97c1a0779a339
+  - enabled: 1
+    path: Assets/Scenes/VNMenu.unity
+    guid: 50a503c4a01d86847b5b116243a5af99
+  - enabled: 1
+    path: Assets/Scenes/VN_Acts/Act 0.unity
+    guid: 12c0127a5a857f04995cbd46b1b00a8c
+  - enabled: 1
+    path: Assets/Scenes/VN_Acts/Act 1.unity
+    guid: 2e6f34d2b31585a4193d4e28638aba7e
+  - enabled: 1
+    path: Assets/Scenes/VN_Acts/Act 2.unity
+    guid: eace62bdd18901f4a96a497efde054e2
+  - enabled: 1
+    path: Assets/Scenes/VN_Acts/Act 3.unity
+    guid: fce55a16758f64340b056c80a58c0329
   m_configObjects: {}
